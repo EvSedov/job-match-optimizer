@@ -33,7 +33,7 @@ const app = createApp({
 });
 
 // Определение порта
-const PORT = process.env.PORT || 3000;
+const PORT = process.env['PORT'] || 3000;
 
 // Запуск сервера
 app.listen(PORT, () => {
