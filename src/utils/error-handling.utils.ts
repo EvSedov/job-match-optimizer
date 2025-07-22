@@ -32,7 +32,7 @@ export enum ErrorCode {
 export class AppError extends Error {
   constructor(
     public readonly code: ErrorCode,
-    public readonly message: string,
+    public override readonly message: string,
     public readonly statusCode: number = 500,
     public readonly details?: any
   ) {
