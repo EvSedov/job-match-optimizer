@@ -1,0 +1,38 @@
+# Исключение директорий
+node_modules
+dist
+coverage
+.git
+.github
+.husky
+logs
+uploads
+
+# Исключение файлов
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+.DS_Store
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Исключение тестовых файлов
+**/*.test.ts
+**/*.spec.ts
+**/__tests__
+**/__mocks__
+
+# Исключение документации
+*.md
+!README.md
+
+# Исключение конфигурационных файлов
+.eslintrc
+.prettierrc
+.editorconfig
+tsconfig.json
+vitest.config.ts
